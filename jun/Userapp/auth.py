@@ -1,3 +1,5 @@
+"""Авторизация с помощью куки"""
+
 from channels.auth import AuthMiddlewareStack
 from channels.db import database_sync_to_async
 from django.contrib.auth import get_user_model
